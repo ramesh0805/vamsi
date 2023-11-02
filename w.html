@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      h1 {
+        background-color:honeydew;
+      }
+      nav ul ul {
+        
+        display: none;
+      }
+      nav ul li:hover > ul {
+        display: block;
+      }
+      nav ul:after {
+        content: "";
+        clear: both;
+        display: block;
+      }
+      nav ul li {
+        float: left;
+        position: relative;
+        list-style-type: none;
+        
+      }
+      nav ul li:hover {
+        background: rgba(19, 20, 123, 0.67);
+      }
+      nav ul li:hover a {
+        color: #fff;
+      }
+      nav ul li a {
+        display: block;
+        padding: 20px 30px;
+        color: #ffffff;
+        text-decoration: none;
+        background-color:#0a1f33;
+        font-family: sans-serif;
+        
+     
+      }
+      nav ul ul {
+        background: #5f6975;
+        padding: 0;
+        position: absolute;
+        top: 100%;
+      }
+      nav ul ul li {
+        float: none;
+        position: relative;
+      }
+      nav ul ul li a {
+        padding: 15px 10px;
+        color: #ffffff;
+        text-transform: uppercase;
+        
+      }
+      nav ul ul li a:hover {
+        background: rgba(162, 163, 173, 0.67);
+      }
+      
+    </style>
+  </head>
+  <body style="background-color: #ff8701">
+    
+    <h1><center><img src="https://www.gprec.ac.in/wp-content/uploads/2019/05/gprec_logo1.png" alt="GPREC > G.Pulla Reddy Engineering College – Kurnool, AP, INDIA"></center></h1>
+    <nav>
+      <ul>
+        <li>
+          <a href="#">HOME</a>
+       </li>
+        <li>
+          <a href="#">DEPARTMENT</a>
+          <ul>
+            <li>
+              <a href="http://127.0.0.1:3000/w-2.html">CSE</a>
+            </li>
+            <li>
+              <a href="http://127.0.0.1:3000/w-2.html">CST</a>
+            </li>
+          </ul>
+        </li>
+        
+            
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
